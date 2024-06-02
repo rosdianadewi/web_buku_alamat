@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Buku Alamat</title>
+        <link rel="stylesheet" href="style.css"> 
+    </head>
+    <body>
+        <header>
+            <h1>Buku Alamat</h1>
+        </header>
+        <main>
+            <section id="display">
+                <table>
+                    <thead>
+                        <th>Nama</th>
+                        <th>Alamat</th>
+                        <th>No. Telephone</th>
+                        <th>Email</th>
+                    </thead>
+                    <tbody id= "data">
+
+                    </tbody>
+                
+                </table>
+            </section>
+            <section id="get-input">
+                <form>
+                    <div>
+                        <label for="nama">Nama : </label>
+                        <input id="nama" class="elm-input" type="text" maxlenght="35" required>
+                    </div>
+                    <div>
+                        <label for="adress"> Alamat : </label>
+                        <input id="adress" class="elm-input" type="text" maxlenght="35" required>
+                    </div>
+                    <div>
+                        <label for="phone"> No. Telephone : </label>
+                        <input id="phone" class="elm-input" type="text" maxlenght="15" required>
+                    </div>
+                    <div>
+                        <label for="email"> Email : </label>
+                        <input id="email" class="elm-input" type="email" maxlenght="20" required>
+                    </div>
+                    <div>
+                        <button> Simpan </button>
+                    </div>
+                </form>
+            </section>
+        </main>
+        <script src="script.js"></script>
+    </body>
+</html>
